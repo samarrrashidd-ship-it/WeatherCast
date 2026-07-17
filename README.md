@@ -115,9 +115,9 @@ http://localhost:5173
 
 ## 📸 Screenshots
 
-Screenshots will be added soon.
+### 🏠 Home Page
 
----
+![Home Page](./screenshots/Home.png)
 
 ## 🔐 Environment Variables
 
@@ -128,8 +128,6 @@ Example:
 ```env
 VITE_WEATHER_API_KEY=YOUR_API_KEY_HERE
 ```
-
-> **Note:** Never upload your real `.env` file to GitHub.
 
 ---
 
