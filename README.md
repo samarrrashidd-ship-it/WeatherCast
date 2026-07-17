@@ -117,7 +117,7 @@ http://localhost:5173
 
 ### 🏠 Home Page
 
-![Home Page](./screenshots/Home.png)
+![Home Page](./screenshot/Home.png)
 
 ## 🔐 Environment Variables
 
