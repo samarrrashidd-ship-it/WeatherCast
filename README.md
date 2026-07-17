@@ -1,16 +1,156 @@
-# React + Vite
+# 🌤 WeatherCast - Real-Time Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 📖 Description
 
-Currently, two official plugins are available:
+WeatherCast is a modern and responsive weather application built using **React.js** and **Vite**. It provides real-time weather information by integrating the **OpenWeather API**. Users can search for any city or use their current location to view accurate weather details, including temperature, humidity, wind speed, pressure, visibility, sunrise, sunset, hourly forecast, and a 5-day forecast.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search weather by city name
+- 📍 Get weather using current location
+- 🌡 Real-time temperature updates
+- 🌤 Weather condition with dynamic icons
+- 💧 Humidity information
+- 🌬 Wind speed
+- 📈 Atmospheric pressure
+- 👀 Visibility details
+- 🌅 Sunrise & 🌇 Sunset timing
+- ⏰ Hourly weather forecast
+- 📅 5-Day weather forecast
+- 🎨 Dynamic background based on weather
+- 📱 Fully responsive UI
+- ⚠️ Error handling for invalid city names
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠 Technologies Used
+
+- React.js
+- Vite
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Axios
+- Bootstrap
+- OpenWeather API
+
+---
+
+## 📂 Project Structure
+
+```text
+WeatherCast/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── .env.example
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/samarrrashidd-ship-it/WeatherCast.git
+```
+
+### Move into the project folder
+
+```bash
+cd WeatherCast
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Create a `.env` file
+
+Create a file named:
+
+```text
+.env
+```
+
+Add your OpenWeather API Key:
+
+```env
+VITE_WEATHER_API_KEY=YOUR_API_KEY_HERE
+```
+
+You can get your free API key from:
+
+https://openweathermap.org/api
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will run on:
+
+```text
+http://localhost:5173
+```
+
+(or another available port if 5173 is already in use.)
+
+---
+
+## 📸 Screenshots
+
+Screenshots will be added soon.
+
+---
+
+## 🔐 Environment Variables
+
+This project uses an environment file to keep API keys secure.
+
+Example:
+
+```env
+VITE_WEATHER_API_KEY=YOUR_API_KEY_HERE
+```
+
+> **Note:** Never upload your real `.env` file to GitHub.
+
+---
+
+## 🚀 Future Improvements
+
+- 🌍 7-Day Weather Forecast
+- 🌙 Dark / Light Mode
+- ⭐ Favorite Cities
+- 📊 Weather Charts
+- 🌐 Multi-language Support
+
+---
+
+## 👩‍💻 Author
+
+**Samar Rashid**
+
+GitHub: https://github.com/samarrrashidd-ship-it
+
+---
+
+## 📄 License
+
+This project is created for learning and portfolio purposes.
