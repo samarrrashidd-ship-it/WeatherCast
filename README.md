@@ -44,6 +44,8 @@ WeatherCast is a modern and responsive weather application built using **React.j
 WeatherCast/
 │
 ├── public/
+├── screenshot/
+│   └── Home.png
 ├── src/
 │   ├── App.jsx
 │   ├── App.css
@@ -53,12 +55,8 @@ WeatherCast/
 ├── .env.example
 ├── .gitignore
 ├── package.json
-├── vite.config.js
-└── README.md
+├── README.md
 ```
-
----
-
 ## ⚙ Installation
 
 ### Clone the repository
